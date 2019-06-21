@@ -1,2 +1,2 @@
 # ryshop
-vue+museUl 电商平台，采用mock模拟数据
+采用uni-app跨平台app应用，
