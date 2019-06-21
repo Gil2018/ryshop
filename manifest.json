@@ -1,0 +1,155 @@
+{
+    "name" : "货柜里",
+    "appid" : "__UNI__7311E99",
+    "description" : "货柜里是成都帮麦电子商务有限公司推出的一款海淘APP，商品涵盖了国外母婴用品、个护美妆、营养保健、全球美食、生活家居、服饰箱包等多种进口商品。帮麦网将国外优质、环保、健康、生态的生活推荐给国内消费者，100%海外正品，国内保税仓极速发货，让您享受一站式海淘购物体验",
+    "versionName" : "3.0.1",
+    "versionCode" : 301,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "modules" : {
+            "Payment" : {},
+            "Push" : {},
+            "OAuth" : {},
+            "Share" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            "ios" : {},
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "payment" : {
+                    "weixin" : {
+                        "appid" : "wx4c01b99eecb06088"
+                    },
+                    "alipay" : {
+                        "scheme" : "BMW"
+                    },
+                    "appleiap" : {}
+                },
+                "push" : {},
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx4c01b99eecb06088",
+                        "appsecret" : "114ea43693f26e447746b5025644c876"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx4c01b99eecb06088",
+                        "appsecret" : "114ea43693f26e447746b5025644c876"
+                    }
+                }
+            },
+            "icons" : {
+                "ios" : {
+                    "appstore" : "/Users/tanzhen/Desktop/icons (2)/ios/AppIcon.appiconset/icon-1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "ldpi" : "unpackage/res/icons/48x48.png",
+                    "mdpi" : "unpackage/res/icons/48x48.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                }
+            },
+            "splashscreen" : {
+                "ios" : {
+                    "iphone" : {
+                        "retina35" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/640 × 960.png",
+                        "retina40" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/640 × 1136.png",
+                        "retina47" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/750 × 1334.png",
+                        "retina55" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/1242 × 2208.png",
+                        "iphonex" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/1125 × 2436.png",
+                        "portrait-896h@2x" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/828 × 1792.png",
+                        "portrait-896h@3x" : "/Users/tanzhen/Desktop/splashes/ios/LaunchImage.launchimage/1242 × 2688.png",
+                        "retina55l" : "/Users/tanzhen/Desktop/splashes/splashes-h/ios/LaunchImage.launchimage/2208 × 1242.png",
+                        "iphonexl" : "/Users/tanzhen/Desktop/splashes/splashes-h/ios/LaunchImage.launchimage/2436 × 1125.png",
+                        "landscape-896h@2x" : "/Users/tanzhen/Desktop/splashes/splashes-h/ios/LaunchImage.launchimage/1792 × 828.png",
+                        "landscape-896h@3x" : "/Users/tanzhen/Desktop/splashes/splashes-h/ios/LaunchImage.launchimage/2688 × 1242.png",
+                        "retina40l" : "/Users/tanzhen/Desktop/splashes/splashes-h/ios/LaunchImage.launchimage/1136*640.png",
+                        "retina47l" : "/Users/tanzhen/Desktop/splashes/splashes-h/ios/LaunchImage.launchimage/1334*750.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "/Users/tanzhen/Desktop/splashes/android/480*762.png",
+                    "xhdpi" : "/Users/tanzhen/Desktop/splashes/android/720*1242.png",
+                    "xxhdpi" : "/Users/tanzhen/Desktop/splashes/android/1080*1882.png"
+                }
+            }
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : true
+        }
+    },
+    "h5" : {
+        "router" : {
+            "base" : ""
+        },
+        "devServer" : {
+            "https" : false
+        },
+        "domain" : "http://h5.indoorbuy.com"
+    }
+}
